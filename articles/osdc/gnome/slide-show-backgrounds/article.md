@@ -77,3 +77,11 @@ This is accomplished by defining the `<startime>` in your XML like this:
 The above XML will start the animation at 06:00 on November 21, 2017.  You could then set your morning wallpaper duration to 21600.0 (6 hours).  It will then be displayed until 12:00, when your next wallpaper is displayed.  You can continue to do this to change the wallpaper at whatever intervals you'd like throughout the day.  You should ensure the total of all your durations equal 86400.
 
 Of interest, GNOME will calculate the delta between the start time and the current time and display the correct wallpaper for the current time.  For example, if you select your new wallpaper at 16:00, GNOME will display the proper wallpaper for 36000 seconds past the start time of 06:00.
+
+To see a complete example, see the adwaita-timed slide show provided by the gnome-backgrounds package in most distributions.  Usually found in `/usr/share/backgrounds/gnome/adwaita-timed.xml`.
+
+### Conclusion
+
+Hopefully you have found this article interesting and have taken a dive into creating your own slide show wallpapers.  If you would like to download complete versions of the files referenced in this article, they can be found on [github](https://github.com/kenvandine/misc/tree/master/articles/osdc/gnome/slide-show-backgrounds/osdc).
+
+If you're interested in utility scripts for generating the XML files, do an internet search for gnome-background-generator.
