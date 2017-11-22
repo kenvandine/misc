@@ -14,7 +14,7 @@ But what if you want to create your own wallpaper pack?  If you aren't afraid to
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
  <wallpaper deleted="false">
-   <name>opensource.com Wallpapers</name>
+   <name>Opensource.com Wallpapers</name>
    <filename>/home/ken/Pictures/Wallpapers/osdc/osdc.xml</filename>
    <options>zoom</options>
  </wallpaper>

@@ -11,7 +11,7 @@ But what if you want to create your own custom slide show to use as a wallpaper?
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
  <wallpaper deleted="false">
-   <name>opensource.com Wallpapers</name>
+   <name>Opensource.com Wallpapers</name>
    <filename>/home/ken/Pictures/Wallpapers/osdc/osdc.xml</filename>
    <options>zoom</options>
  </wallpaper>
