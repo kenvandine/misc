@@ -1,12 +1,10 @@
 # How to create your own wallpaper slide show in GNOME
 
-A very cool (lesser known) feature of GNOME is the ability to create a wallpaper slide show.  You can select a wallpaper slide show from the background panel in the control center.  Wallpaper slide shows can be distinguished from static wallpapers by a small clock emblem displayed at the lower right corner of the preview.
+A very cool (lesser known) feature of GNOME is the ability to display a slide show as your wallpaper.  You can select a wallpaper slide show from the background settings panel in the GNOME Control Center, aka Settings.  Wallpaper slide shows can be distinguished from static wallpapers by a small clock emblem displayed at the lower right corner of the preview.
 
-#IMAGE OF CLOCK EMBLEM
+There are some pre-installed slide show wallpapers in some distributions, for example Ubuntu includes the stock GNOME timed wallpaper slide show as well as a slide show of the Ubuntu wallpaper contest winners.
 
-There are some prepackaged wallpaper slide shows available in some distributions, for example Ubuntu includes the stock GNOME timed wallpaper slide show as well as a slide show of the wallpaper contest winers for the release.
-
-But what if you want to create your own wallpaper slide show?  GNOME doesn't provide a user interface for creating such a slide show.  If you aren't afraid to craft some simple XML files in your home directory, you'll find it quite simple to create your own.  Fortunately the background selection in control center honors some common directory paths, which makes it pretty simple to create your own without the need to edit anything provided by your distribution.  Using your preferred text editor, create an XML file in `$HOME/.local/share/gnome-background-properties/`.  The file name isn't important, but the directory name matters (you'll probably have to create the directory).  For my example, I created `/home/ken/.local/share/gnome-background-properties/osdc-wallpapers.xml` with the following content:
+But what if you want to create your own custom slide show to use as a wallpaper?  GNOME doesn't provide a user interface for creating such a slide show, however if you aren't afraid to craft some simple XML files in your home directory, you'll find it quite simple to create your own.  Fortunately the background selection in GNOME Control Center honors some common directory paths, which makes it pretty simple to create your own without the need to edit anything provided by your distribution.  Using your favorite text editor, create an XML file in `$HOME/.local/share/gnome-background-properties/`.  The file name isn't important, but the directory name matters (you'll probably have to create the directory).  For my example, I created `/home/ken/.local/share/gnome-background-properties/osdc-wallpapers.xml` with the following content:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
