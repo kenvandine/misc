@@ -18,7 +18,11 @@ But what if you want to create your own custom slide show to use as a wallpaper?
 </wallpapers>
 ```
 
-The above XML file needs a `<wallpaper>` stanza for each slide show or static wallpaper you want to include in the backgrounds panel of the control center.  In this example, `osdc.xml` file looks like this:
+The above XML file needs a `<wallpaper>` stanza for each slide show or static wallpaper you want to include in the backgrounds panel of the GNOME Control Center.
+
+[![IMAGE ALT TEXT HERE](https://github.com/kenvandine/misc/raw/master/articles/osdc/gnome/slide-show-backgrounds/osdc/screenshot-osdc_wallpaper_500.png)]
+
+In this example, `osdc.xml` file looks like this:
 
 ```
 <?xml version="1.0" ?>
@@ -60,7 +64,7 @@ This is accomplished by defining the `<startime>` in your XML like this:
 
 ```
   <starttime>
-    <!-- A star time in the past is fine -->
+    <!-- A start time in the past is fine -->
     <year>2017</year>
     <month>11</month>
     <day>21</day>
